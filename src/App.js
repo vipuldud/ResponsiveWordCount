@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div >
-      <h1>Live Word Count</h1>
+      <h1>Responsive Word Counter</h1>
       <textarea
         rows="5"
         cols="50"
@@ -19,7 +19,7 @@ function App() {
         value={text}
         onChange={handleChange}
       />
-      <p>Responsive Paragraph Word Counter {wordCount}</p>
+      <p>Word Count: {wordCount}</p>
     </div>
   );
 }
